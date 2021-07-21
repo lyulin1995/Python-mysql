@@ -19,6 +19,7 @@ mycursor = db.cursor()
 # #plot this table
 # mycursor.execute("DESCRIBE Person")
 
+
 # # add elements
 mycursor.execute("INSERT INTO Person (name, age) VALUES (%s, %s)", ("Joe", 22))
 # # database commit changes, it will commit those changes and those will actually be saved permanently
